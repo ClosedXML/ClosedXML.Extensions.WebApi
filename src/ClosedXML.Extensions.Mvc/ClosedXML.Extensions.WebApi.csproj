@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.0;net45;net46</TargetFrameworks>
+    <LangVersion>7.2</LangVersion>
+    <Version>0.2.0</Version>
+    <Authors>Francois Botha</Authors>
+    <Company />
+    <Product>ClosedXML.Extensions.WebApi</Product>
+    <Description>WebApi extensions for ClosedXML</Description>
+    <Copyright>MIT</Copyright>
+    <PackageLicenseUrl>https://github.com/ClosedXML/ClosedXML.Extensions.WebApi/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ClosedXML.Extensions.WebApi/ClosedXML</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ClosedXML/ClosedXML.Extensions.WebApi</RepositoryUrl>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.0' ">
+    <DefineConstants>$(DefineConstants);_NETSTANDARD_;_NETSTANDARD2_0_</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net45' ">
+    <DefineConstants>$(DefineConstants);_NETFRAMEWORK_;_NET45_</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net46' ">
+    <DefineConstants>$(DefineConstants);_NETFRAMEWORK_;_NET46_</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.0' ">
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net46' ">
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.92.1" />
+  </ItemGroup>
+</Project>
