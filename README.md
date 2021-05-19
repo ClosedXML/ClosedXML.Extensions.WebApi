@@ -3,7 +3,7 @@ WebApi Extensions for [ClosedXML](https://github.com/ClosedXML/ClosedXML)
 
 ## Install via NuGet
 
-To install ClosedXML.Extensions.Mvc, run the following command in the Package Manager Console
+To install ClosedXML.Extensions.WebApi, run the following command in the Package Manager Console
 
 ```
 PM> Install-Package ClosedXML.Extensions.WebApi
