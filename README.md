@@ -8,6 +8,10 @@ To install ClosedXML.Extensions.WebApi, run the following command in the Package
 ```
 PM> Install-Package ClosedXML.Extensions.WebApi
 ```
+or
+```
+dotnet add package ClosedXML.Extensions.WebApi
+```
 
 
 ## Usage
