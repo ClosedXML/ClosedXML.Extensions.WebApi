@@ -8,7 +8,7 @@ namespace ClosedXML.Extensions
 {
     public static class WebApiExtensions
     {
-        public static HttpResponseMessage Deliver(this XLWorkbook workbook, string fileName, string contentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+        public static HttpResponseMessage Deliver(this IXLWorkbook workbook, string fileName, string contentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
         {
             var memoryStream = new MemoryStream();
             workbook.SaveAs(memoryStream);
