@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.0;net45;net46</TargetFrameworks>
     <LangVersion>7.2</LangVersion>
-    <Version>0.2.1</Version>
+    <Version>0.3.0</Version>
     <Authors>Francois Botha</Authors>
     <Company />
     <Product>ClosedXML.Extensions.WebApi</Product>
