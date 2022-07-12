@@ -49,6 +49,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ClosedXML" Version="0.93.0" />
+    <PackageReference Include="ClosedXML" Version="0.96.0" />
   </ItemGroup>
 </Project>
