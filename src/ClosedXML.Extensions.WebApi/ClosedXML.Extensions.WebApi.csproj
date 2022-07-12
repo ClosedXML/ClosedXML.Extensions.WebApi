@@ -13,6 +13,8 @@
     <PackageProjectUrl>https://github.com/ClosedXML/ClosedXML.Extensions.WebApi/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ClosedXML/ClosedXML.Extensions.WebApi</RepositoryUrl>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>ClosedXML.Extensions.WebApi.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
