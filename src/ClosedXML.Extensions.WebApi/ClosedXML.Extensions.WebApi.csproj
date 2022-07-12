@@ -9,7 +9,7 @@
     <Product>ClosedXML.Extensions.WebApi</Product>
     <Description>WebApi extensions for ClosedXML</Description>
     <Copyright>MIT</Copyright>
-    <PackageLicenseUrl>https://github.com/ClosedXML/ClosedXML.Extensions.WebApi/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/ClosedXML/ClosedXML.Extensions.WebApi/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ClosedXML/ClosedXML.Extensions.WebApi</RepositoryUrl>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
